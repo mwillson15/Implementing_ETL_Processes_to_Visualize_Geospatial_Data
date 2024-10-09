@@ -1,5 +1,5 @@
 # Implementing_ETL_Processes_to_Visualize_Geospatial_Data
-This repository contains files for a project which implemented ETL processes to visualize geospatial data using the GeoAPI API. There are 9 files for this project in the "Implementing_ETL_Processes_to_Visualize_Geospatial_Data" folder. t
+This repository contains files for a project which implemented ETL processes to visualize geospatial data using the GeoAPI API. There are 9 files for this project in the "Implementing_ETL_Processes_to_Visualize_Geospatial_Data" folder.
 
 ## Objectives
 - Apply/practice ETL processes such as extracting data from different sources and loading data into a database
