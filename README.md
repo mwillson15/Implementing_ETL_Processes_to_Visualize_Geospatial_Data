@@ -9,14 +9,14 @@ This repository contains files for a project which implemented ETL processes to 
 ## Motivations
 This was one of the final projects in a Python specialization I completed which aimed to apply many of the topics taught throughout the specialization including Python/SQL programming and interacting with APIs.
 
-## Reading Through Project
-Below are the descriptions of the project contents in the order you should go about reading.
+## Reading Through Files
+Below are descriptions of the project files in the order you should go about reading them.
 
 ### "Visualizing_Geospatial_Data_env_requirements.txt"
-This is a text file which contains the requirements for the virtual environment used in this project. Note, the "sqlite3" module used in these scripts requires SQLite 3.15.2 or newer.
+This is a text file which contains the requirements for the virtual environment used in this project. Note, the "sqlite3" module used in this project requires SQLite 3.15.2 or newer.
 
 ### "Project_Outline"
-This is a JPEG file which contains an outline of the steps of the project. Look at this image first to gain a better understanding of how the project was conducted.
+This is a JPEG file which contains an outline of the steps of the project. Look at this image first for a visual layout of how the project was conducted.
 
 ### "where.data"
 This is a "Brackets" document or more generally a text file containing location names at each line (e.g., University of Central Florida).
@@ -34,7 +34,7 @@ This is a Python script file which contains the code for the second step of this
 This is a JavaScript file created by "geodump.py" which contains the location name and coordinate pairs. 
 
 ### "where.html"
-This is HTML document which extracts the data from "where.js" and visualizes it using the Open Street Map browser application. This document runs the code automatically as this project was more an excerise in ETL processes. In other words, when you open "where.html", a Open Street Map browser tab is opened with all the corresponding locations plotted on a map. Refer to the link provided in the map visualization to understand how the code works. However, it is written in Polish so translation may be necessary.
+This is a HTML document which extracts the data from "where.js" and visualizes it using the Open Street Map browser application. This document runs the code automatically as this project was more an excerise in ETL processes. In other words, when you open "where.html", a Open Street Map browser tab is opened with all the corresponding locations plotted on a map. Refer to the link provided in the map visualization to understand how the code works. However, it is written in Polish so translation may be necessary.
 
 ## Notes
 The proxy to the GeoAPI API used in this project is highly rate limited. Running these scripts too much will result in very slow computation times. I recommend reading through the scripts to understand the programming involved, browsing through the database that was created, and opening "where.html" to see the final visualization.
